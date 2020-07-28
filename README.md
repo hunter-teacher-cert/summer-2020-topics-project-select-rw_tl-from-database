@@ -1,8 +1,8 @@
 #Topic: Intro to SQL
 # Team Members
-### 1.Tsee Lee
-### 2. Rosane Weiss
+1.Tsee Lee
 
+2. Rosane Weiss
 
 ## Lesson Overview
 
