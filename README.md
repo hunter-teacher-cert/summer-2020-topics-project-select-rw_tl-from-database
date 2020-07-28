@@ -75,6 +75,7 @@ and complete the following code, which is in response to Computing/ Computer pro
 Intro to SQL: Querying and managing data/ Relational queries in SQL/ Challenge: Friendbook
 
 ## Sample end-of-unit student code
+```SQL
 CREATE TABLE persons (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     fullname TEXT,
@@ -125,3 +126,4 @@ SELECT perA.fullname, perB.fullname
     JOIN persons perB
     ON friends.person2_id = perB.id
     ;
+```
