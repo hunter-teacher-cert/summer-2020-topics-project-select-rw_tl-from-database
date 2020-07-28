@@ -75,11 +75,11 @@ and complete the following code, which is in response to Computing/ Computer pro
 Intro to SQL: Querying and managing data/ Relational queries in SQL/ Challenge: Friendbook
 
 ## Sample end-of-unit student code
+```sql
 CREATE TABLE persons (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     fullname TEXT,
     age INTEGER);
-
 INSERT INTO persons (fullname, age) VALUES ("Bobby McBobbyFace", "12");
 INSERT INTO persons (fullname, age) VALUES ("Lucy BoBucie", "25");
 INSERT INTO persons (fullname, age) VALUES ("Banana FoFanna", "14");
@@ -125,3 +125,4 @@ SELECT perA.fullname, perB.fullname
     JOIN persons perB
     ON friends.person2_id = perB.id
     ;
+```
