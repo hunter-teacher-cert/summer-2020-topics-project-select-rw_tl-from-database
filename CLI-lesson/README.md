@@ -14,8 +14,11 @@ that their students lack basic skills needed to write complex programs.
 I wrote this lesson to be the second content-heavy lesson of the
 school year, for a senior elective in IT infrastructure & data
 warehousing. This lesson will be preceded by a gamified intro to
-command-line navigation using the games Terminus (for most students)
-and bashcrawl (for experienced navigators). These text adventure games
+command-line navigation using the games [Terminus]
+(https://web.mit.edu/mprat/Public/web/Terminus/Web/main.html)
+(for most students) and [bashcrawl]
+(https://opensource.com/article/19/10/learn-bash-command-line-games)
+(for experienced navigators). These text adventure games
 teach real bash commands that players then use to play the games.
 
 For most of the school year, my students will live on the Linux and
