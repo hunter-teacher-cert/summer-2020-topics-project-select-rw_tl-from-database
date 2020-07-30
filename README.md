@@ -25,13 +25,13 @@ the database into giving more information than intended.
 To deliver this lesson, you will first need to set up your own DVWA website & database.
 This can be straightforward and virtually free if you have basic Linux familiarity,
 or extremely complicated and time-consuming if you want to rely on free website hosts.
-Instructions are provided in ["Setting up your DVWA website"](Setting%20up%20your%20DVWA%20website.pdf)
-for details.
+Instructions are provided in:
+["Setting up your DVWA website"](Setting%20up%20your%20DVWA%20website.pdf)
 
 Student worksheet: ["Database, Day 00" worksheet](https://tiny.cc/dvwasqlws)
-([DOCX](Database%2C%20Day%2000.docx), [PDF](Database%2C%20Day%2000.pdf))
-[Worksheet Answer Key](Database%2C%20Day%2000%20%5BAnswer%20Key%5D.pdf)
-Slide deck: ["Database, Day 00 presentation"](Database%2C%20Day%2000%20presentation.pdf).
+([DOCX](Database%2C%20Day%2000.docx), [PDF](Database%2C%20Day%2000.pdf))\
+[Worksheet Answer Key](Database%2C%20Day%2000%20%5BAnswer%20Key%5D.pdf)\
+Slide deck: ["Database, Day 00 presentation"](Database%2C%20Day%2000%20presentation.pdf)
 
 ## Lesson: "Introduction to Website Database Vulnerabilities"
 
