@@ -95,7 +95,7 @@ and complete the code in ["End of the unit code"](End%20of%20the%20unit%20code.p
 The document also contains screenshots of Khan's online IDE. A very small snippet of
 the code is included below for those unfamiliar with SQL.
 
-### Sample end-of-unit student code
+### Sample ["End of the unit code"](End%20of%20the%20unit%20code.pdf)
 ```SQL
 CREATE TABLE persons (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -113,7 +113,7 @@ SELECT perA.fullname, perB.fullname
     ;
 ```
 
-# Take It Further
+## Take It Further
 After completing Khan's unit on SQL, it's time to set up a database that
 students have full control over. They can collect data, populate the database,
 and run analysis on that data. Options here on will depend on teacher's
@@ -121,8 +121,8 @@ comfort level and available time.
 - The best option, especially if they already set up the DVWA server on
 a Linux computer, is to install/turn on the mysql server. This gives maximum
 flexibility.
-- The quickest option, is to continue using Khan's website. However, this can
-be confusing to students since they will be marked wrong by the autograder.
+- The quickest option is to continue using Khan's website with its IDE. However,
+this can be confusing to students since they will be marked wrong by the autograder.
 - Another option without setting up a class server is [pythonanywhere](https://www.pythonanywhere.com/),
 which offers python, bash, and sql consoles for free. The downsides include
 a limit of 2 consoles running at a time, not being able to access or share
