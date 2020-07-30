@@ -36,24 +36,39 @@ on what lessons we will follow up this lesson with ("Database, Day 00 presentati
 
 See "Database, Day 00 presentation" for the PowerPoint for this lesson.
 
-1) SLide 1: What does it mean to hack a database?
+1) Slide 1: What does it mean to hack a database?
 	(The idea here is to have students understand that to hack is to "trick")
 
-2)  Slide 2: Disclaimer. Discuss with students the legal aspects of hacking.(group and class discussion)
+2) Slide 2: Discuss with students the legal aspects of hacking
+(group and class discussion). In class, I start by asking students how they
+would fare in federal prison. Then I ask them about legality of opening
+someone's mail, a federal crime because it's delivered by the USPS.
+But why federal jurisdiction? Depending on what social studies classes
+they have taken, they may or may not know that this is governed by the
+Interstate Commerce clause of the U.S. Constitution. And the courts will
+assume that anything done on the Internet, even if hacking a local website,
+will involve data packets traveling across state lines. I remind them that
+the only reason hacking the website in this lesson is ok is that I set up
+the site, and gave them permission. If they hack into any other site, they
+will be prosecuted, go to federal jail, and no one at the school or their
+family will be able to help.
 
-3) Slide 3: Types of vulnerabilities. Briefly discuss each one. We are going to try the Error based vulnerability in this lesson.
-   We are going to trick the database into giving us extra information, by mistake. (group and class discussion)
+3) Slide 3: Types of vulnerabilities. Briefly discuss each. We are going to
+try the Error based vulnerability in this lesson. We are going to trick the
+database into giving us extra information, by mistake. (Q/C/C)
 
-4) Distribute "Database, Day 00" worksheet. This worksheet contains all the examples that students should complete.
-   Time for student work! They could work alone or in groups of 2 if desired. (discovery)
+4) Distribute "Database, Day 00" worksheet. This worksheet contains all the
+examples that students should complete. Time for student work! They could
+work alone or in pairs if desired. (discovery)
 
-5) Reconvine and check answers and what students discovered.(class discussion)
+5) Reconvene and demonstrate command syntax on the database behind the website,
+using SQL commands. For script, see ["SQL Commands to Demo"](SQL%20Commands%20to%20Demo.pdf)
+(live coding).
 
-6) Demonstrate command syntax, using the SELECT command, since that is the command they used.
-See "SQL Commands to Demo". (live coding)
+6) The rest of the slides explain the unit plan we have in mind.
 
-7) Distribute "SQL-Commands-Cheat-Sheet, for future reference. Discuss most used commands, time permitting.
-
+7) Distribute "SQL-Commands-Cheat-Sheet, for future reference.
+Discuss most used commands, time permitting.
 
 ## Follow-up
 
