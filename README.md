@@ -25,7 +25,8 @@ the database into giving more information than intended.
 To deliver this lesson, you will first need to set up your own DVWA website & database.
 This can be straightforward and virtually free if you have basic Linux familiarity,
 or extremely complicated and time-consuming if you want to rely on free website hosts.
-See the document "Setting up your DVWA website" for details.
+Instructions are provided in ["Setting up your DVWA website"](Setting%20up%20your%20DVWA%20website.pdf)
+for details.
 
 A worksheet entitled "Database, Day 00" is provided that you can assign to your students.
 Its answer key is also included, as well as an accompanying slide deck that also touches
