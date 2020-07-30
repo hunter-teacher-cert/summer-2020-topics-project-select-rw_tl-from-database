@@ -28,9 +28,10 @@ or extremely complicated and time-consuming if you want to rely on free website 
 Instructions are provided in ["Setting up your DVWA website"](Setting%20up%20your%20DVWA%20website.pdf)
 for details.
 
-A worksheet entitled "Database, Day 00" is provided that you can assign to your students.
-Its answer key is also included, as well as an accompanying slide deck that also touches
-on what lessons we will follow up this lesson with ("Database, Day 00 presentation").
+Student worksheet: ["Database, Day 00" worksheet](https://tiny.cc/dvwasqlws)
+([DOCX](Database%2C%20Day%2000.docx), [PDF](Database%2C%20Day%2000.pdf))
+[Worksheet Answer Key](Database%2C%20Day%2000%20%5BAnswer%20Key%5D.pdf)
+Slide deck: ["Database, Day 00 presentation"](Database%2C%20Day%2000%20presentation.pdf).
 
 ## Lesson: "Introduction to Website Database Vulnerabilities"
 
@@ -57,10 +58,8 @@ family will be able to help.
 try the Error based vulnerability in this lesson. We are going to trick the
 database into giving us extra information, by mistake. (Q/C/C)
 
-4) Distribute the ["Database, Day 00" worksheet](https://tiny.cc/dvwasqlws)
-([DOCX](Database%2C%20Day%2000.docx), [PDF](Database%2C%20Day%2000.pdf)).
-This worksheet contains all the examples that students should complete.
-Time for student work, alone or in pairs. (discovery)
+4) Distribute the student worksheet, which contains all the examples that
+students should complete. Time for student work, alone or in pairs. (discovery)
 
 If students finish early, encourage them to help classmates, but never give
 away the answer!
