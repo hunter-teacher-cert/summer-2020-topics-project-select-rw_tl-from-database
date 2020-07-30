@@ -57,9 +57,13 @@ family will be able to help.
 try the Error based vulnerability in this lesson. We are going to trick the
 database into giving us extra information, by mistake. (Q/C/C)
 
-4) Distribute "Database, Day 00" worksheet. This worksheet contains all the
-examples that students should complete. Time for student work! They could
-work alone or in pairs if desired. (discovery)
+4) Distribute the ["Database, Day 00" worksheet](https://tiny.cc/dvwasqlws)
+([DOCX](Database%2C%20Day%2000.docx), [PDF](Database%2C%20Day%2000.pdf)).
+This worksheet contains all the examples that students should complete.
+Time for student work, alone or in pairs. (discovery)
+
+If students finish early, encourage them to help classmates, but never give
+away the answer!
 
 5) Reconvene and demonstrate command syntax on the database behind the website,
 using SQL commands. For script, see ["SQL Commands to Demo"](SQL%20Commands%20to%20Demo.pdf)
@@ -67,15 +71,17 @@ using SQL commands. For script, see ["SQL Commands to Demo"](SQL%20Commands%20to
 
 6) The rest of the slides explain the unit plan we have in mind.
 
-7) Distribute "SQL-Commands-Cheat-Sheet, for future reference.
-Discuss most used commands, time permitting.
+7) Distribute ["SQL-Commands-Cheat-Sheet"](SQL-Commands-Cheat-Sheet.pdf)
+for future reference. Discuss most used commands, time permitting.
 
 ## Follow-up
 
-The teacher will set up classes and make assignments on Khan Academy in the
-"Computer programming" course, which contains a unit called "Intro to SQL:
-Querying and managing data". The lessons involve an instructional video
-followed a "challenge", plus some additional readings, which can be self-guided.
+The teacher will set up classes and make assignments in Khan Academy's
+[Computer Programming](https://www.google.com/search?client=firefox-b-1-d&q=Khan+Academy+in+the%22Computer+programming%22)
+course, which contains a unit called ["Intro to SQL: Querying and managing data"]
+(https://www.khanacademy.org/computing/computer-programming/sql).
+The lessons involve an instructional video followed a "challenge",
+plus some additional readings, which can be self-guided.
 
 Students will complete all assignments from that unit, or whichever the
 teacher considers doable. Depending on the student population, we recommend
