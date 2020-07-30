@@ -77,15 +77,14 @@ for future reference. Discuss most used commands, time permitting.
 
 The teacher will set up classes and make assignments in Khan Academy's
 [Computer Programming](https://www.google.com/search?client=firefox-b-1-d&q=Khan+Academy+in+the%22Computer+programming%22)
-course, which contains a unit called ["Intro to SQL: Querying and managing data"]
-(https://www.khanacademy.org/computing/computer-programming/sql).
-The lessons involve an instructional video followed a "challenge",
-plus some additional readings, which can be self-guided.
+course, which contains a unit called ["Intro to SQL: Querying and managing data"](https://www.khanacademy.org/computing/computer-programming/sql).
 
-Students will complete all assignments from that unit, or whichever the
-teacher considers doable. Depending on the student population, we recommend
-assigning two (2) videos & challenges each per day. Class time can be devoted
-to questions, catch-up, etc., or demonstrating queries on a class database.
+The lessons involve an instructional video followed a "challenge", plus
+some additional readings, which can be self-guided. Students will complete
+all assignments from that unit, or whichever the teacher considers doable.
+Depending on the student population, we recommend assigning two (2)
+videos & challenges each per day. Class time can be devoted to questions,
+catch-up, etc., or demonstrating queries on a class database.
 
 The minimum for this unit is "SQL Basics", "More advanced SQL queries" and
 at least one join in "Relational queries in SQL". There are more lessons in
