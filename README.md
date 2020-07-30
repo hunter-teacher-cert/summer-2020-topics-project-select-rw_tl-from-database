@@ -73,7 +73,7 @@ using SQL commands. For script, see ["SQL Commands to Demo"](SQL%20Commands%20to
 7) Distribute ["SQL-Commands-Cheat-Sheet"](SQL-Commands-Cheat-Sheet.pdf)
 for future reference. Discuss most used commands, time permitting.
 
-## Follow-up
+## If There Is Time
 
 The teacher will set up classes and make assignments in Khan Academy's
 [Computer Programming](https://www.google.com/search?client=firefox-b-1-d&q=Khan+Academy+in+the%22Computer+programming%22)
@@ -91,10 +91,11 @@ at least one join in "Relational queries in SQL". There are more lessons in
 Khan Academy, if you want do go deeper into SQL.
 
 By the end of the Unit, based on Khan Academy, students will be able to understand
-and complete the following code, which is in response to Computing/ Computer programming/
-Intro to SQL: Querying and managing data/ Relational queries in SQL/ Challenge: Friendbook
+and complete the code in ["End of the unit code"](End%20of%20the%20unit%20code.pdf),
+The document also contains screenshots of Khan's online IDE. A very small snippet of
+the code is included below for those unfamiliar with SQL.
 
-## Sample end-of-unit student code
+### Sample end-of-unit student code
 ```SQL
 CREATE TABLE persons (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -102,42 +103,6 @@ CREATE TABLE persons (
     age INTEGER);
 
 INSERT INTO persons (fullname, age) VALUES ("Bobby McBobbyFace", "12");
-INSERT INTO persons (fullname, age) VALUES ("Lucy BoBucie", "25");
-INSERT INTO persons (fullname, age) VALUES ("Banana FoFanna", "14");
-INSERT INTO persons (fullname, age) VALUES ("Shish Kabob", "20");
-INSERT INTO persons (fullname, age) VALUES ("Fluffy Sparkles", "8");
-
-CREATE table hobbies (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
-    person_id INTEGER,
-    name TEXT);
-
-INSERT INTO hobbies (person_id, name) VALUES (1, "drawing");
-INSERT INTO hobbies (person_id, name) VALUES (1, "coding");
-INSERT INTO hobbies (person_id, name) VALUES (2, "dancing");
-INSERT INTO hobbies (person_id, name) VALUES (2, "coding");
-INSERT INTO hobbies (person_id, name) VALUES (3, "skating");
-INSERT INTO hobbies (person_id, name) VALUES (3, "rowing");
-INSERT INTO hobbies (person_id, name) VALUES (3, "drawing");
-INSERT INTO hobbies (person_id, name) VALUES (4, "coding");
-INSERT INTO hobbies (person_id, name) VALUES (4, "dilly-dallying");
-INSERT INTO hobbies (person_id, name) VALUES (4, "meowing");
-
-CREATE table friends (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
-    person1_id INTEGER,
-    person2_id INTEGER);
-
-INSERT INTO friends (person1_id, person2_id)
-    VALUES (1, 4);
-INSERT INTO friends (person1_id, person2_id)
-    VALUES (2, 3);
-
-SELECT persons.fullname, hobbies.name
-    FROM persons
-    JOIN hobbies
-    ON persons.id = hobbies.person_id
-    ;
 
 SELECT perA.fullname, perB.fullname
     FROM persons perA
@@ -147,3 +112,21 @@ SELECT perA.fullname, perB.fullname
     ON friends.person2_id = perB.id
     ;
 ```
+
+# Take It Further
+After completing Khan's unit on SQL, it's time to set up a database that
+students have full control over. They can collect data, populate the database,
+and run analysis on that data. Options here on will depend on teacher's
+comfort level and available time.
+- The best option, especially if they already set up the DVWA server on
+a Linux computer, is to install/turn on the mysql server. This gives maximum
+flexibility.
+- The quickest option, is to continue using Khan's website. However, this can
+be confusing to students since they will be marked wrong by the autograder.
+- Another option without setting up a class server is [pythonanywhere](https://www.pythonanywhere.com/),
+which offers python, bash, and sql consoles for free. The downsides include
+a limit of 2 consoles running at a time, not being able to access or share
+outside an account, and that every student needs to set up their own copy
+of any databases.
+- [SQLite](https://www.sqlite.org/index.html) is an option if students have
+their own computers. It's self-contained, but the API is in C/C++.
