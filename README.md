@@ -1,14 +1,14 @@
-#Topic: Intro to SQL
-# Team Members
-1.Tsee Lee\
+# Topic: Introduction to Structured Query Language
+## Team Members
+1. Tsee Lee
 2. Rosane Weiss
 
 ## Lesson Overview
 
 This is a standalone lesson that can delivered at almost any time. We wrote it
 for a year-long senior elective class to transition from the cybersecurity unit
-to the database unit that covers SQL, the industry standard database language.
-To introduce the SQL unit, we incorporate database manipulation and vulnerability.
+to the database unit, which covers the industry standard database language SQL.
+To introduce the SQL unit, we present database manipulation and vulnerability.
 The "hook" is to fulfill perhaps the most common request from students in a CS class:
 to learn to hack. To do this, we use the Damn Vulnerable Web App (DVWA). DVWA is a
 PHP/MySQL web application with a plethora of vulnerabilities built-in.
